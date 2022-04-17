@@ -1,42 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
-
-@charset "UTF-8";
-
-
-html{
+html {
     font-size: 100%;
 }
 
+.main-container{
+    margin-top: 30px;
+}
+
+#top-logo {
+    margin-top: 20px;
+}
+
 body {
-
     font-family: "Gideon Roman", "Noto Serif JP";
-
     line-height: 1.7;
-
-    color:#f9f4f4;
+    color: #f9f4f4;
     background-color: #860000;
-
 }
 
 a {
     text-decoration: none;
-}    
-
+}
 
 img {
-max-width: 100%;
+    max-width: 100%;
 }
 
 /*HEADER----------*/
 
 .logo {
     width: 200px;
+    height: 55px;
     margin-top: 0px;
 }
 
-
-.main-nav{
-    
+.main-nav {
     display: flex;
     font-size: 1.25rem;
     text-transform: uppercase;
@@ -46,16 +48,13 @@ max-width: 100%;
 }
 
 .sub {
-
     font-size: 15px;
     text-transform: initial;
     margin-top: 3px;
     letter-spacing: normal;
-    
 }
 
-.main-nav li{
-    
+.main-nav li {
     width: 100%;
 }
 
@@ -64,15 +63,17 @@ max-width: 100%;
 }
 
 .main-nav a:hover {
-    
     color: #a8a36d;
 }
-
 
 
 .page-header {
     display: flex;
     width: 80%;
+}
+
+nav {
+    width: 100%
 }
 
 .wrapper {
@@ -81,98 +82,59 @@ max-width: 100%;
     padding: 0 4%;
 }
 
-
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
 
 /*MAIN----------*/
 
-
-
-.recommend{
-   
+.ore01 {
+    margin-top: 30px;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    white-space: nowrap;
+    justify-content: space-between;
+    width: 1440px;
+    background-color: burlywood;
 }
 
+.fra-parent{
+    width: 100%;
+    text-align: center;
+}
 
+.fra {
+    /*text-align: center;*/
+    /* margin-top: 30px;
+    margin-left: auto;
+    margin-bottom: 50px; */
+}
 
-.ore01{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
+.img-ore {
+    width: 800px;
 }
 
 .vintage01 {
-    
     margin-top: 40px;
     margin-right: 51px;
     margin-left: 60px;
 }
 
-.vintage02 {
-    
-    margin-top: 25px;
-    margin-left: 55px;
-    margin-right: 55px;
-   
-}
-
-.vintage03{
-    
-    margin-top: 40px;
-    margin-right: 105px;
-    margin-left: 51px;
-}
-
-.ore01{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-}
-
-.ore02 {
-    
-    margin: 0px;
-    margin-left: 123px;
-    margin-right: 135px;
-    margin-top: 30px;
-
-}
-
-.ore03{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-}
-
-.ore03 h2{
-
-    margin-left: 600px;
-    margin-right: 40px;
-    margin-top: -110px;
-
-}
-
 .more a {
-
     display: flex;
     color: #f9f4f4;
     margin: 0px;
     margin-left: 980px;
     margin-top: -60px;
-    
 }
 
 .more a:hover {
     color: #a8a36d;
 }
 
-
-.vintage04{
+.vintage04 {
     margin: 0px;
     margin-left: 930px;
-    
 }
 
 .circle {
@@ -181,18 +143,16 @@ max-width: 100%;
     margin-right: 0;
 }
 
-
-.grim01{
+.grim01 {
+    background-color: brown;
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
     margin-top: 60px;
-
-    
+    background-image: url(.......images/rectangle.png);
 }
 
 .grim02 {
-
     font-size: 30px;
     margin: 0px;
     margin-left: 30px;
@@ -205,31 +165,30 @@ max-width: 100%;
     margin-left: -330px;
 }
 
-ul.over{
-    list-style: none;   
+ul.over {
+    list-style: none;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     margin: 0;
     padding: 0;
 }
 
-.over li{
+.over li {
     position: relative;
-    width:30%;
+    width: 30%;
 }
 
-.over img{
-   
-    display: block;
+.over img {
+    display: flex;
 }
 
-.over div{
+.over div {
     position: absolute;
     top: 93px;
     left: 41px;
     right: 100px;
     bottom: 80px;
-    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
     opacity: 0;
     display: flex;
     justify-content: center;
@@ -238,7 +197,7 @@ ul.over{
     transition: .3s;
 }
 
-.over li:hover div{
-    background: rgba(0,0,0,0.5);
+.over li:hover div {
+    background: rgba(0, 0, 0, 0.5);
     opacity: 1;
 }
