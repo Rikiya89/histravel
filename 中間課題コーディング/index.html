@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="Histravel Traceback the Histravel あなただけのお気に入りの歴史を辿ろう">
     <title>Histravel Traceback the History</title>
 
@@ -17,74 +17,72 @@
         rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link rel="icon" type="images/favicon.png" href="images/favicon.png">
+    
+
 </head>
 
 <body>
-    <div id="top" class="top-img">
-        <header class="page-header wrapper">
-            <h1 id="top-logo">
-                <a href="index.html">
-                    <img class="logo" src="images/histravellogo.png" alt="histravel logo">
-                </a>
-            </h1>
+    <!-- ヘッダー部分 -->
+    <header id="page-header">
+        <h1 id="hist-logo">
+            <a href="index.html">
+                <img id="hist-logo-img" src="images/histravellogo.png" alt="histravel logo">
+            </a>
+        </h1>
 
-            <nav>
-                <ul class="main-nav">
-                    <li><a href="grimm.html">グリム童話<p class="sub">Grimm's Fairy Tales</p></a></li>
-                    <li><a href="history.html">歴史<p class="sub">History</p></a></li>
-                    <li><a href="myth.html">神話<p class="sub">Mythology</p></a></li>
-                    <li><a href="spot.html">スポット検索<p class="sub">Sopt Search</p></a></li>
-                    <li><a href="login.html">ログイン<p class="sub">Log In</p></a></li>
-                </ul>
-            </nav>
-        </header>
-    </div>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="grimm.html">グリム童話<p class="sub">Grimm's Fairy Tales</p></a></li>
+                <li><a href="history.html">歴史<p class="sub">History</p></a></li>
+                <li><a href="myth.html">神話<p class="sub">Mythology</p></a></li>
+                <li><a href="spot.html">スポット検索<p class="sub">Sopt Search</p></a></li>
+                <li><a href="login.html">ログイン<p class="sub">Log In</p></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- /ヘッダー部分 -->
 
 
-    <main class="main-container">
-        <img src="images/ireland_castle.png" alt="histravelpng">
-        <section class="ore01">
-            <div>
+    <main id="main-container">
+        <img id="main-image" src="images/ireland_castle.png" alt="histravelpng">
+        <section id="ore01">
+            <div class="ore-image-wrapper">
                 <a href="spotsearch.html">
-                    <img class="img-ore" src="images/orelean.png" alt="オルレアン大聖堂">
+                    <img id="img-ore" src="images/orelean.png" alt="オルレアン大聖堂">
                 </a>
             </div>
-            <div class="fra-parent">
-                <h2 class="fra">オルレアン大聖堂</h2>
+            <div id="fra-parent">
+                <h2 id="fra">オルレアン大聖堂</h2>
             </div>
         </section>
 
         <section class="grim01">
-            <div class="vintage05">
-                <img src="images/vintageline.png" alt="vintageline">
+            <div class="line-01">
+                <div class="vintage-left"></div>
+                <div>
+                    <h2 class="grim02">グリム童話</h2>
+                    <div class="grim03">Grimm's Fairy Tales></div>
+                </div>
+                <div class="vintage-right"></div>
             </div>
 
-            <div>
-                <h2 class="grim02">グリム童話</h2>
-            </div>
 
-            <div class="vintage06">
-                <img src="images/vintageline.png" alt="vintageline">
-            </div>
-
-            <div class="grim03"><p>Grimm's Fairy Tales</p></div>
-
-            <ul class="over">
-                <li>
-                    <img src="images/cindellea.png" alt="cindellea">
+            <div class="under-bar">
+                <div class="tile-imag-01">
+                    <div class="img-01"></div>
                     <div>シンデレラ</div>
-                </li>
-                <li>
-                    <img src="images/belle.png" alt="cafe">
-                    <a href="grimm.html">
+                </div>
+                <div class="tile-imag-02">
+                    <div class="img-02"></div>
+<!--                    <a href="grimm.html">-->
                         <div>美女と野獣</div>
-                    </a>
-                </li>
-                <li>
-                    <img src="images/harmeln.png" alt="cafe">
+<!--                    </a>-->
+                </div>
+                <div class="tile-imag-03">
+                    <div class="img-03"></div>
                     <div>ハーメルンの笛吹男</div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </section>
     </main>
 </body>
