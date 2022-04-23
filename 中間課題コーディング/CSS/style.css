@@ -1,203 +1,175 @@
+@charset "UTF-8";
 * {
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    font-size: 100%;
-}
-
-.main-container{
-    margin-top: 30px;
-}
-
-#top-logo {
-    margin-top: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Gideon Roman", "Noto Serif JP";
-    line-height: 1.7;
-    color: #f9f4f4;
-    background-color: #860000;
+  max-width: 1440px;
+  margin: 0 auto;
+  /* リンクの下線部を非表示 */
+  /* ヘッダー */
+  font-family: "Gideon Roman", "Noto Serif JP";
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 4%;
+  color: #f9f4f4;
+  background-color: #860000;
+}
+body a {
+  text-decoration: none;
+}
+body #page-header {
+  display: flex;
+  width: 100%;
+}
+body #page-header #hist-logo {
+  margin-top: 20px;
+}
+body #page-header #hist-logo #hist-logo-img {
+  width: 200px;
+  height: 55px;
+}
+body nav {
+  width: 100%;
+}
+body nav .main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 18px;
+  text-align: center;
+  list-style: none;
+}
+body nav .main-nav li {
+  width: 100%;
+}
+body nav .main-nav a {
+  color: #f9f4f4;
+}
+body nav .main-nav a:hover {
+  color: #a8a36d;
+}
+body nav .main-nav .sub {
+  font-size: 15px;
+  text-transform: initial;
+  margin-top: 3px;
+  letter-spacing: normal;
+}
+body #main-container {
+  margin-top: 30px;
+  /* ボディー */
+}
+body #main-container #main-image {
+  max-width: 100%;
+}
+body #main-container #ore01 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: burlywood;
+}
+body #main-container #ore01 .ore-image-wrapper {
+  width: 50%;
+}
+body #main-container #ore01 .ore-image-wrapper #img-ore {
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+}
+body #main-container #ore01 #fra-parent {
+  width: 50%;
+  text-align: center;
+}
+body #main-container #ore01 #fra {
+  text-align: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+body section.grim01 {
+  background-color: brown;
+  margin-top: 60px;
+  background-image: url(.......images/rectangle.png);
+}
+body section.grim01 .line-01 {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+body section.grim01 .line-01 .vintage-left {
+  width: 35%;
+  background-image: url(../images/vintageline.png);
+  background-repeat: repeat-x;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+body section.grim01 .line-01 div {
+  width: 30%;
+}
+body section.grim01 .line-01 div h2.grim02 {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+body section.grim01 .line-01 div .grim03 {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+  margin-top: 10px;
+}
+body section.grim01 .line-01 .vintage-right {
+  width: 35%;
+  background-image: url(../images/vintageline.png);
+  background-repeat: repeat-x;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+body section.grim01 .under-bar {
+  display: flex;
+  justify-content: space-around;
+}
+body section.grim01 .under-bar .tile-imag-01 {
+  width: 30%;
+}
+body section.grim01 .under-bar .tile-imag-01 .img-01 {
+  width: 100%;
+  background-color: black;
+  height: 300px;
+  background-image: url(../images/cindellea.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+body section.grim01 .under-bar .tile-imag-02 {
+  width: 30%;
+}
+body section.grim01 .under-bar .tile-imag-02 .img-02 {
+  width: 100%;
+  background-color: black;
+  height: 300px;
+  background-image: url(../images/belle.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+body section.grim01 .under-bar .tile-imag-03 {
+  width: 30%;
+}
+body section.grim01 .under-bar .tile-imag-03 .img-03 {
+  width: 100%;
+  background-color: black;
+  height: 300px;
+  background-image: url(../images/harmeln.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+body section.grim01 .under-bar .over li:hover div {
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
 }
 
-a {
-    text-decoration: none;
-}
-
-img {
-    max-width: 100%;
-}
-
-/*HEADER----------*/
-
-.logo {
-    width: 200px;
-    height: 55px;
-    margin-top: 0px;
-}
-
-.main-nav {
-    display: flex;
-    font-size: 1.25rem;
-    text-transform: uppercase;
-    margin-top: 18px;
-    text-align: center;
-    list-style: none;
-}
-
-.sub {
-    font-size: 15px;
-    text-transform: initial;
-    margin-top: 3px;
-    letter-spacing: normal;
-}
-
-.main-nav li {
-    width: 100%;
-}
-
-.main-nav a {
-    color: #f9f4f4;
-}
-
-.main-nav a:hover {
-    color: #a8a36d;
-}
-
-
-.page-header {
-    display: flex;
-    width: 80%;
-}
-
-nav {
-    width: 100%
-}
-
-.wrapper {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 4%;
-}
-
-main {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 4%;
-}
-
-/*MAIN----------*/
-
-.ore01 {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    width: 1440px;
-    background-color: burlywood;
-}
-
-.fra-parent{
-    width: 100%;
-    text-align: center;
-}
-
-.fra {
-    /*text-align: center;*/
-    /* margin-top: 30px;
-    margin-left: auto;
-    margin-bottom: 50px; */
-}
-
-.img-ore {
-    width: 800px;
-}
-
-.vintage01 {
-    margin-top: 40px;
-    margin-right: 51px;
-    margin-left: 60px;
-}
-
-.more a {
-    display: flex;
-    color: #f9f4f4;
-    margin: 0px;
-    margin-left: 980px;
-    margin-top: -60px;
-}
-
-.more a:hover {
-    color: #a8a36d;
-}
-
-.vintage04 {
-    margin: 0px;
-    margin-left: 930px;
-}
-
-.circle {
-    margin: 0px;
-    margin-left: 160px;
-    margin-right: 0;
-}
-
-.grim01 {
-    background-color: brown;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    margin-top: 60px;
-    background-image: url(.......images/rectangle.png);
-}
-
-.grim02 {
-    font-size: 30px;
-    margin: 0px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.grim03 {
-    margin: 0px;
-    margin-top: 50px;
-    margin-left: -330px;
-}
-
-ul.over {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-    padding: 0;
-}
-
-.over li {
-    position: relative;
-    width: 30%;
-}
-
-.over img {
-    display: flex;
-}
-
-.over div {
-    position: absolute;
-    top: 93px;
-    left: 41px;
-    right: 100px;
-    bottom: 80px;
-    background: rgba(0, 0, 0, 0);
-    opacity: 0;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    color: #FFF;
-    transition: .3s;
-}
-
-.over li:hover div {
-    background: rgba(0, 0, 0, 0.5);
-    opacity: 1;
-}
+/*# sourceMappingURL=style.css.map */
