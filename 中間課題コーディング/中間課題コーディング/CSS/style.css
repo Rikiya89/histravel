@@ -1,0 +1,232 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  /* リンクの下線部を非表示 */
+  /* ヘッダー */
+  font-family: "Gideon Roman", "Noto Serif JP";
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 4%;
+  color: #f9f4f4;
+  background-color: #860000;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body #page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+body #page-header #hist-logo {
+  margin-top: 20px;
+}
+
+body #page-header #hist-logo #hist-logo-img {
+  width: 200px;
+  height: 55px;
+}
+
+body #page-header #hist-logo footer {
+  display: block;
+}
+
+body #page-header #hist-logo footer .copyright {
+  text-align: center;
+  font-size: 12;
+}
+
+body nav {
+  width: 100%;
+}
+
+body nav .main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 18px;
+  text-align: center;
+  list-style: none;
+}
+
+body nav .main-nav li {
+  width: 100%;
+}
+
+body nav .main-nav a {
+  color: #f9f4f4;
+}
+
+body nav .main-nav a:hover {
+  color: #a8a36d;
+}
+
+body nav .main-nav .sub {
+  font-size: 15px;
+  text-transform: initial;
+  margin-top: 3px;
+  letter-spacing: normal;
+}
+
+body #main-container {
+  margin-top: 30px;
+  /* ボディー */
+}
+
+body #main-container #main-image {
+  max-width: 100%;
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
+body #main-container #ore01 {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: burlywood;
+}
+
+body #main-container #ore01 .ore-image-wrapper {
+  width: 50%;
+}
+
+body #main-container #ore01 .ore-image-wrapper #img-ore {
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+body #main-container #ore01 #fra-parent {
+  width: 50%;
+  text-align: center;
+}
+
+body #main-container #ore01 #fra {
+  text-align: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+
+body section.grim01 {
+  background-color: brown;
+  margin-top: 60px;
+  background-image: url(.......images/rectangle.png);
+}
+
+body section.grim01 .line-01 {
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body section.grim01 .line-01 .vintage-left {
+  width: 35%;
+  background-image: url(../images/vintageline.png);
+  background-repeat: repeat-x;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+body section.grim01 .line-01 div {
+  width: 30%;
+}
+
+body section.grim01 .line-01 div h2.grim02 {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+
+body section.grim01 .line-01 div .grim03 {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+body section.grim01 .line-01 .vintage-right {
+  width: 35%;
+  background-image: url(../images/vintageline.png);
+  background-repeat: repeat-x;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+body section.grim01 .under-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body section.grim01 .under-bar .tile-imag-01 {
+  width: 30%;
+}
+
+body section.grim01 .under-bar .tile-imag-01 .img-01 {
+  width: 100%;
+  background-color: black;
+  height: 300px;
+  background-image: url(../images/cindellea.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+body section.grim01 .under-bar .tile-imag-02 {
+  width: 30%;
+}
+
+body section.grim01 .under-bar .tile-imag-02 .img-02 {
+  width: 100%;
+  background-color: black;
+  height: 300px;
+  background-image: url(../images/belle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+body section.grim01 .under-bar .tile-imag-03 {
+  width: 30%;
+}
+
+body section.grim01 .under-bar .tile-imag-03 .img-03 {
+  width: 100%;
+  background-color: black;
+  height: 300px;
+  background-image: url(../images/harmeln.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+body section.grim01 .under-bar .over li:hover div {
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+/*# sourceMappingURL=style.css.map */
