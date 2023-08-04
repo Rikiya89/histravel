@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  /* リンクの下線部を非表示 */
+  a {
+    text-decoration: none;
+  }
+
+  /* ヘッダー */
+  font-family: "Gideon Roman",
+  "Noto Serif JP";
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 4%;
+  color: #f9f4f4;
+  background-color: #860000;
+
+  #page-header {
+    display: flex;
+    width: 100%;
+
+    #hist-logo {
+      margin-top: 20px;
+
+      #hist-logo-img {
+        width: 200px;
+        height: 55px;
+      }
+// フッター部分 
+      footer {
+        display: block;
+        .copyright {
+          text-align: center;
+          font-size: 12;
+        }
+      }
+    }
+  }
+
+  nav {
+    width: 100%;
+
+    .main-nav {
+      display: flex;
+      font-size: 1.25rem;
+      text-transform: uppercase;
+      margin-top: 18px;
+      text-align: center;
+      list-style: none;
+
+      li {
+        width: 100%;
+      }
+
+      a {
+        color: #f9f4f4;
+      }
+
+      a:hover {
+        color: #a8a36d;
+      }
+
+      .sub {
+        font-size: 15px;
+        text-transform: initial;
+        margin-top: 3px;
+        letter-spacing: normal;
+      }
+    }
+
+  }
+
+  #main-container {
+    margin-top: 30px;
+    /* ボディー */
+    #main-image {
+      max-width: 100%;
+      box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+    }
+
+
+    #ore01 {
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+      background-color: burlywood;
+
+      .ore-image-wrapper {
+        width: 50%;
+
+        #img-ore {
+          max-width: 100%;
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      #fra-parent {
+        width: 50%;
+        text-align: center;
+      }
+
+      #fra {
+        text-align: center;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+
+  // グリム
+  section.grim01 {
+    background-color: brown;
+    margin-top: 60px;
+    background-image: url(.......images/rectangle.png);
+
+    .line-01 {
+      height: 120px;
+      display: flex;
+      justify-content: space-between;
+
+      .vintage-left {
+        width: 35%;
+        background-image: url(../images/vintageline.png);
+        background-repeat: repeat-x;
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+
+      div {
+        width: 30%;
+
+        h2.grim02 {
+          margin: 0;
+          width: 100%;
+          text-align: center;
+          font-size: 30px;
+        }
+
+        .grim03 {
+          margin: 0;
+          width: 100%;
+          text-align: center;
+          margin: 0px;
+          margin-top: 10px;
+        }
+      }
+
+      .vintage-right {
+        width: 35%;
+        background-image: url(../images/vintageline.png);
+        background-repeat: repeat-x;
+        margin-top: 10px;
+        margin-right: 10px;
+      }
+    }
+
+    .under-bar {
+      display: flex;
+      justify-content: space-around;
+
+      .tile-imag-01 {
+        width: 30%;
+
+        .img-01 {
+          width: 100%;
+          background-color: black;
+          height: 300px;
+          background-image: url(../images/cindellea.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+        }
+      }
+
+      .tile-imag-02 {
+        width: 30%;
+
+        .img-02 {
+          width: 100%;
+          background-color: black;
+          height: 300px;
+          background-image: url(../images/belle.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+        }
+      }
+
+      .tile-imag-03 {
+        width: 30%;
+
+        .img-03 {
+          width: 100%;
+          background-color: black;
+          height: 300px;
+          background-image: url(../images/harmeln.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+        }
+      }
+
+      //.over img {
+      //    display: flex;
+      //}
+      //
+      //.over div {
+      //    position: absolute;
+      //    top: 93px;
+      //    left: 41px;
+      //    right: 100px;
+      //    bottom: 80px;
+      //    background: rgba(0, 0, 0, 0);
+      //    opacity: 0;
+      //    display: flex;
+      //    justify-content: center;
+      //    align-items: flex-end;
+      //    color: #FFF;
+      //    transition: .3s;
+      //}
+
+      .over li:hover div {
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 1;
+      }
+    }
+  }
+}
